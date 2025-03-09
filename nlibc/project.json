@@ -1,0 +1,18 @@
+{
+  "langrev": "0.6.5",
+  "warnings": [ "no-unused" ],
+  "dependency-search-paths": [ "lib" ],
+  "dependencies": [ ],
+  "authors": [ "Norskiy <norskiyxviiigmail.com>" ],
+  "version": "0.1.0",
+  "sources": [ "src/**" ],
+  "test-sources": [ "test/**" ],
+  "output": "build",
+  "targets": {
+    "nlibc": {
+      "type": "executable"
+    }
+  },
+  "cpu": "generic",
+  "opt": "O0"
+}
